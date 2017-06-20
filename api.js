@@ -18,7 +18,6 @@ export default function ({dispatch}) {
           payload: data,
           url: null,
           method: null,
-          redirect_now: action.redirect
         };
         dispatch(newAction);
       }
